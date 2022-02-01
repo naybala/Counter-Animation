@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: linear-gradient(to bottom right, #eac8ca, #f2d5f8, #e6c0e9); */
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-box {
+  width: 675px;
+  height: 225px;
+  background-image: linear-gradient(to bottom right, #6f6b87, #534f6a);
+  color: #faf8ff;
+  box-shadow: 0 0 16px 0 #bfabcb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+}
+
+.counter {
+  font-size: 2.5rem;
+}
+
+@media (min-width:300px) and (max-width:700px){
+  /* .html{
+    overflow-x: auto;
+  } */
+  main {
+  
+    background-image: linear-gradient(to bottom right, #eac8ca, #f2d5f8, #e6c0e9);
+  
+  }
+  .counter-box {
+    width: 290px;
+    height: 225px;
+    }
+    .counter {
+      font-size: 1.5rem;
+    }
+    h2,
+    h3{
+      font-size: 0.7rem;
+    }
+}
